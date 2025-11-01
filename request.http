@@ -1,0 +1,70 @@
+GET https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/health HTTP/1.1
+
+
+### Revenues
+GET https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/revenues HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYwOThkNjFjYzI2MzJhOWQxODc0NyIsImVtYWlsIjoibmV4dC1qc0BleGFtcGxlLmNvbSIsIm5hbWUiOiJuZXh0LWpzIiwiaWF0IjoxNzU5OTA2NDM3fQ.LhGXxYuwZiaM97u72gouhC-MnQSq7_Mtl0bnnPpT2mg
+
+
+### Invoices
+GET https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/invoices HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYwOThkNjFjYzI2MzJhOWQxODc0NyIsImVtYWlsIjoibmV4dC1qc0BleGFtcGxlLmNvbSIsIm5hbWUiOiJuZXh0LWpzIiwiaWF0IjoxNzU5OTA2NDM3fQ.LhGXxYuwZiaM97u72gouhC-MnQSq7_Mtl0bnnPpT2mg
+
+
+### Invoices Edit ID
+GET https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/invoices/68bc79f261cc2632a9d126e4 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYwOThkNjFjYzI2MzJhOWQxODc0NyIsImVtYWlsIjoibmV4dC1qc0BleGFtcGxlLmNvbSIsIm5hbWUiOiJuZXh0LWpzIiwiaWF0IjoxNzU5OTA2NDM3fQ.LhGXxYuwZiaM97u72gouhC-MnQSq7_Mtl0bnnPpT2mg
+
+
+### Invoices Paginate
+GET https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/invoices/paginate HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYwOThkNjFjYzI2MzJhOWQxODc0NyIsImVtYWlsIjoibmV4dC1qc0BleGFtcGxlLmNvbSIsIm5hbWUiOiJuZXh0LWpzIiwiaWF0IjoxNzU5OTA2NDM3fQ.LhGXxYuwZiaM97u72gouhC-MnQSq7_Mtl0bnnPpT2mg
+
+
+### Invoices invoice-total-pages
+GET https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/invoices/page-count?q=bra HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYwOThkNjFjYzI2MzJhOWQxODc0NyIsImVtYWlsIjoibmV4dC1qc0BleGFtcGxlLmNvbSIsIm5hbWUiOiJuZXh0LWpzIiwiaWF0IjoxNzU5OTA2NDM3fQ.LhGXxYuwZiaM97u72gouhC-MnQSq7_Mtl0bnnPpT2mg
+
+
+### Customers
+GET https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/customer HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYwOThkNjFjYzI2MzJhOWQxODc0NyIsImVtYWlsIjoibmV4dC1qc0BleGFtcGxlLmNvbSIsIm5hbWUiOiJuZXh0LWpzIiwiaWF0IjoxNzU5OTA2NDM3fQ.LhGXxYuwZiaM97u72gouhC-MnQSq7_Mtl0bnnPpT2mg
+
+
+### Invoices Count
+GET https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/invoices/count HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYwOThkNjFjYzI2MzJhOWQxODc0NyIsImVtYWlsIjoibmV4dC1qc0BleGFtcGxlLmNvbSIsIm5hbWUiOiJuZXh0LWpzIiwiaWF0IjoxNzU5OTA2NDM3fQ.LhGXxYuwZiaM97u72gouhC-MnQSq7_Mtl0bnnPpT2mg
+
+
+### Customer Count
+GET https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/customer/count HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYwOThkNjFjYzI2MzJhOWQxODc0NyIsImVtYWlsIjoibmV4dC1qc0BleGFtcGxlLmNvbSIsIm5hbWUiOiJuZXh0LWpzIiwiaWF0IjoxNzU5OTA2NDM3fQ.LhGXxYuwZiaM97u72gouhC-MnQSq7_Mtl0bnnPpT2mg
+
+
+### Status Count
+GET https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/invoices/status-count HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYwOThkNjFjYzI2MzJhOWQxODc0NyIsImVtYWlsIjoibmV4dC1qc0BleGFtcGxlLmNvbSIsIm5hbWUiOiJuZXh0LWpzIiwiaWF0IjoxNzU5OTA2NDM3fQ.LhGXxYuwZiaM97u72gouhC-MnQSq7_Mtl0bnnPpT2mg
+
+
+### Register
+POST https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/auth/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "next-js",
+  "username": "next-js",
+  "email": "next-js@example.com",
+  "password": "123456"
+}
+
+
+### Login
+POST https://backend-next-tutorial-fay6a.ondigitalocean.app/api/v1/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "next-js@example.com",
+  "password": "123456"
+}
+
+#eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYwOThkNjFjYzI2MzJhOWQxODc0NyIsImVtYWlsIjoibmV4dC1qc0BleGFtcGxlLmNvbSIsIm5hbWUiOiJuZXh0LWpzIiwiaWF0IjoxNzYxNTc4Nzc5fQ.3EzVfCfabvK5CDwiHO809-RqucKZ4dwOZro1YlvmpaA
